@@ -1,4 +1,5 @@
 <?php
+require $_SERVER['DOCUMENT_ROOT'] . '/src/core.php';
 $title = 'Теги';
 require $_SERVER['DOCUMENT_ROOT'] . '/templates/header.php';
 ?>

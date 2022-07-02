@@ -1,5 +1,6 @@
 <?php
-$title = 'Тэги';
+require $_SERVER['DOCUMENT_ROOT'] . '/src/core.php';
+$title = 'Теги';
 require $_SERVER['DOCUMENT_ROOT'] . '/templates/header.php';
 ?>
             <h1 class="my-md-5 my-4">Добавить тег</h1>

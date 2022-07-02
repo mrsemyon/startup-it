@@ -22,17 +22,9 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="/list-material.php">Материалы</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/list-tag.php">Теги</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/list-category.php">Категории</a>
-                            </li>
-                        </ul>
+                        <?php
+                            require $_SERVER['DOCUMENT_ROOT'] . '/templates/menu.php';
+                        ?>
                     </div>
                 </div>
             </nav>
